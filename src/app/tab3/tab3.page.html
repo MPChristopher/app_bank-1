@@ -1,17 +1,44 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 3
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 3 page"></app-explore-container>
-</ion-content>
+<div class="app-header">
+  <span>Aplicación Bancaria</span>
+</div>
+<div class="app">
+  <div class="section-container">
+      <div class="section">
+          <p>Para solicitar una tarjeta de crédito en nuestro banco, complete el siguiente formulario:</p>
+          <div class="button-container">
+              <button type="button">Enviar Form.</button>
+          </div>
+      </div>
+      <div class="section">
+          <div class="section-title">Pago de Agua</div>
+          <div class="form-group">
+              <label for="montoAgua">MONTO</label>
+              <input type="number" id="montoAgua" step="0.01">
+          </div>
+          <div class="button-container">
+              <button type="button">Calcular</button>
+              <button type="button">PAGAR</button>
+          </div>
+      </div>
+  </div>
+  <div class="section-container">
+      <div class="section">
+          <div class="section-title">Pago de Luz</div>
+          <div class="form-group">
+              <label for="montoLuz">MONTO</label>
+              <input type="number" id="montoLuz" step="0.01">
+          </div>
+          <div class="button-container">
+              <button type="button">Calcular</button>
+              <button type="button">PAGAR</button>
+          </div>
+      </div>
+      <div class="section">
+          <div class="section-title">Internet</div>
+          <p>Tiene que pagar 15</p>
+          <div class="button-container">
+              <button type="button">PAGAR</button>
+          </div>
+      </div>
+  </div>
+</div>

@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #0074b3;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: right;
+    font-size: 14px;
+}
+
+.user-card {
+    background-color: #f9f5f2;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.user-card img {
+    max-width: 100%;
+}
+
+.user-info {
+    text-align: center;
+}
+
+.user-info h2 {
+    margin: 0;
+    color: #0074b3;
+}
+
+.user-info p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.user-info .saldo {
+    color: #ff8800;
+    font-weight: bold;
+}
