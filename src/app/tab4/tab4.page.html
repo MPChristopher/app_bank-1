@@ -1,13 +1,41 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>tab4</ion-title>
-  </ion-toolbar>
-</ion-header>
+<body>
+  <div class="app-header">
+    <span>Aplicación Bancaria</span>
+</div>
+  <div class="app">
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">tab4</ion-title>
-    </ion-toolbar>
-  </ion-header>
-</ion-content>
+      <div class="section">
+          <div class="section-title">PAGO DE AGUA</div>
+          <div class="form-group">
+              <label for="montoAgua">MONTO</label>
+              <input type="text" id="montoAgua">
+          </div>
+          <div class="button-container">
+              <button type="button" id="calcularAgua">Calcular</button>
+              <button type="button" id="pagarAgua">PAGAR</button>
+          </div>
+      </div>
+      <div class="section">
+          <div class="section-title">PAGO DE LUZ</div>
+          <div class="form-group">
+              <label for="montoLuz">MONTO</label>
+              <input type="text" id="montoLuz">
+          </div>
+          <div class="button-container">
+              <button type="button" id="calcularLuz">Calcular</button>
+              <button type="button" id="pagarLuz">PAGAR</button>
+          </div>
+      </div>
+      <div class="section">
+          <div class="section-title">PAGO DE INTERNET</div>
+          <div class="form-group">
+              <label for="montoInternet">MONTO</label>
+              <input type="text" id="montoInternet">
+          </div>
+          <p class="subtitle">Su plan es de 15$ por 15MB</p>
+          <div class="button-container">
+              <button type="button" id="pagarInternet">Pagar</button>
+          </div>
+      </div>
+  </div>
+</body>

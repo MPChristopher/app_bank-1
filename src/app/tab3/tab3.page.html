@@ -1,44 +1,54 @@
 <div class="app-header">
-  <span>Aplicación Bancaria</span>
-</div>
-<div class="app">
-  <div class="section-container">
-      <div class="section">
-          <p>Para solicitar una tarjeta de crédito en nuestro banco, complete el siguiente formulario:</p>
-          <div class="button-container">
-              <button type="button">Enviar Form.</button>
-          </div>
-      </div>
-      <div class="section">
-          <div class="section-title">Pago de Agua</div>
-          <div class="form-group">
-              <label for="montoAgua">MONTO</label>
-              <input type="number" id="montoAgua" step="0.01">
-          </div>
-          <div class="button-container">
-              <button type="button">Calcular</button>
-              <button type="button">PAGAR</button>
-          </div>
-      </div>
+    <span>Aplicación Bancaria</span>
   </div>
-  <div class="section-container">
-      <div class="section">
-          <div class="section-title">Pago de Luz</div>
-          <div class="form-group">
-              <label for="montoLuz">MONTO</label>
-              <input type="number" id="montoLuz" step="0.01">
-          </div>
-          <div class="button-container">
-              <button type="button">Calcular</button>
-              <button type="button">PAGAR</button>
-          </div>
-      </div>
-      <div class="section">
-          <div class="section-title">Internet</div>
-          <p>Tiene que pagar 15</p>
-          <div class="button-container">
-              <button type="button">PAGAR</button>
-          </div>
-      </div>
+  <div class="app">
+    <div class="column">
+        <div class="column-title">Datos del Solicitante</div>
+        <div class="form-group">
+            <label for="planillaLuz">Planilla de Luz</label>
+            <input type="file" id="planillaLuz">
+        </div>
+        <div class="form-group">
+            <label for="cedula">Cédula</label>
+            <input type="number" id="cedula" maxlength="10" placeholder="Ingrese su Cedula">
+        </div>
+        <div class="form-group">
+            <label for="certificadoVotacion">Certificado de Votación</label>
+            <input type="file" id="certificadoVotacion">
+        </div>
+        <div class="form-group">
+            <label for="rolPagos">Rol de Pagos</label>
+            <input type="file" id="rolPagos">
+        </div>
+        <div class="form-group">
+            <label for="correoElectronico">Correo Electrónico</label>
+            <input type="email" id="correoElectronico" placeholder="Ingrese su correo electrónico">
+        </div>
+    </div>
+    <div class="column">
+        <div class="column-title">Datos del Garante</div>
+        <div class="form-group">
+            <label for="planillaLuzGarante">Planilla de Luz</label>
+            <input type="file" id="planillaLuzGarante">
+        </div>
+        <div class="form-group">
+            <label for="cedulaGarante">Cédula</label>
+            <input type="number" id="cedulaGarante" maxlength="10" placeholder="Ingrese su Cedula">
+        </div>
+        <div class="form-group">
+            <label for="certificadoVotacionGarante">Certificado de Votación</label>
+            <input type="file" id="certificadoVotacionGarante">
+        </div>
+        <div class="form-group">
+            <label for="rolPagosGarante">Rol de Pagos</label>
+            <input type="file" id="rolPagosGarante">
+        </div>
+        <div class="form-group">
+            <label for="correoElectronicoGarante">Correo Electrónico</label>
+            <input type="email" id="correoElectronicoGarante" placeholder="Ingrese su correo electrónico">
+        </div>
+    </div>
+    <div class="button-container">
+        <button type="button">Enviar Formulario</button>
+    </div>
   </div>
-</div>
