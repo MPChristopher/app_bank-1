@@ -25,27 +25,26 @@ body {
     font-size: 14px;
 }
 
-.section-container {
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 0;
-    border: 2px solid #0074b3;
-    border-radius: 10px;
-    padding: 20px;
+.column {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 5%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
 }
 
-.section {
-    flex: 0.45;
-}
-
-.section-title {
+.column-title {
     font-size: 18px;
     font-weight: bold;
     color: #0074b3;
 }
 
 .form-group {
-    margin-top: 10px;
+    margin-top: 15px;
+    text-align: left;
 }
 
 .form-group label {
@@ -55,7 +54,9 @@ body {
 }
 
 .form-group input[type="text"],
-.form-group input[type="number"] {
+.form-group input[type="email"],
+.form-group input[type="number"],
+.form-group input[type="file"] {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
